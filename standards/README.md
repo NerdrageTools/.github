@@ -22,10 +22,13 @@ The standard configuration for repositories in this organization, derived from
 
 - Secret scanning + push protection enabled.
 - A `Default` branch ruleset: block deletion, block non-fast-forward, require
-  signed commits, require a pull request (dismiss stale reviews on push).
+  signed commits, and require a pull request with **at least one approving
+  review from someone other than the author** (stale reviews dismissed on push).
   Required status checks are intentionally **omitted** until a repo defines the
   required CI job; adding a required check that no workflow emits blocks every
-  PR forever.
+  PR forever. Note that GitHub will not let a user approve their own pull
+  request, so a repo with a single member needs a second collaborator (or the
+  `*-AI` machine account) to satisfy the approval requirement.
 
 ## GitHub Free caveats
 
