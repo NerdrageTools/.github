@@ -1,17 +1,17 @@
 # NerdrageTools
 
-Software behind NerdRAGE and friends: a file-based RPG wiki and content
-platform, its content pipeline, and companion tooling.
+Tools for people who build and run tabletop worlds.
 
-- **[nerdrage](https://github.com/NerdrageTools/nerdrage)** — the NerdRAGE
-  application.
-- **[content](https://github.com/NerdrageTools/content)** — wiki/content source
-  and synchronization pipeline.
-- **[sourcebooks](https://github.com/NerdrageTools/sourcebooks)** — sourcebook
-  content.
-- **[7d2d-mod](https://github.com/NerdrageTools/7d2d-mod)** — 7 Days to Die mod.
-- **[nerdrage-discord-bot](https://github.com/NerdrageTools/nerdrage-discord-bot)**
-  — Discord bot.
+NerdRAGE is a file-based platform for worldbuilding and play — campaign and
+setting content, character sheets, dice, calendars, and the pipelines that keep
+it all in sync. It rests on a simple conviction: that a world should live as
+plain, portable content you own, not as rows trapped inside someone else's
+service.
 
-Contributions follow the organization-wide [contributing
-guide](https://github.com/NerdrageTools/.github/blob/main/CONTRIBUTING.md).
+Around the platform sits the rest of the organization's work: the content
+synchronization engine, sourcebook tooling, and a renderer for Tolkien and
+other constructed scripts.
+
+Durable, hackable tools that stay out of the way of the story.
+
+→ [nerdrage.wiki](https://nerdrage.wiki)
